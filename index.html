@@ -26,6 +26,10 @@
         text-align: right;
     }
 
+    .slide{
+        display: flex !important;
+        justify-content: center;
+    }
 
   </style>
   <meta charset="UTF-8">
@@ -41,6 +45,14 @@
   <h1>ぬ</h1>
   <p>おすすめの「ぬ」</p>
   
+
+<div class="slides">
+    <div class="slide"><img src="https://mihon.1-jp.com/hiragana/23/23-1-nu.jpg" alt="習字1" /></div>
+    <div class="slide"><img src="https://mihon.1-jp.com/hiragana/23/23-2-nu.jpg" alt="習字2" /></div>
+</div>
+
+
+
   <p>いろいろな「ぬ」</p>
 <div class="one">
 <p>
@@ -70,9 +82,9 @@
 <h6>製作者 近江弘斗</h6>
 </div>
 <script>
-    $('.one').slick({
-        centerMode: true,
-  centerPadding: '60px',
+    $('.slides').slick({
+        arrows: true,
+        dots: true
     });
     
     </script>
