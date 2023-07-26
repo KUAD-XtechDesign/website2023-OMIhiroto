@@ -12,9 +12,9 @@
         text-align:center;
     }
     .one{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        gap: 56px;
+        gap: 56px; */
     }
     .two{display: flex;
         justify-content: center;
@@ -29,6 +29,13 @@
 
   </style>
   <meta charset="UTF-8">
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="./slick-1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
   <h1>ぬ</h1>
@@ -62,5 +69,12 @@
 <p> coming soon</p>
 <h6>製作者 近江弘斗</h6>
 </div>
+<script>
+    $('.one').slick({
+        centerMode: true,
+  centerPadding: '60px',
+    });
+    
+    </script>
 </body>
 </html>
